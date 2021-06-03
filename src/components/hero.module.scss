@@ -1,0 +1,62 @@
+.hero{
+   height: 100%;
+   overflow-x: hidden;
+   background: url("../images/HomeHero.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   border: 0px;
+   margin: 0px;
+   width: 100vw;
+}
+
+.hero-CTA {
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    height: 350px;
+    background-color: #000000;
+    border-radius: 10px;
+    margin-left: 650px;
+    margin-top: 200px;
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 35px;
+}
+
+.h6 {
+    font-size: 60px;
+    font-weight: bolder;
+    color: #ffffff;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.h1 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #ffffff;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-right: 44px;
+
+}
+
+.btn {
+    border-radius: 50px;
+    border: 0px;
+    width: 280px;
+    height: 52px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans';
+    color: #ffffff;
+    font-size: 16px;
+    background: linear-gradient(94deg, rgba(2,0,36,1) 0%, rgba(254,241,54,1) 0%, rgba(230,53,46,1) 100%);
+
+}

@@ -1,0 +1,35 @@
+.body{
+    height: 100%;
+    width: 100vw;
+    overflow-x: hidden;
+    background: url("../images/closing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+
+ }
+
+ .h2{
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+ }
+
+ .btn{
+    border-radius: 50px;
+    border: 0px;
+    width: 280px;
+    height: 52px;
+    font-family: 'Lucida Sans';
+    color: #ffffff;
+    font-size: 16px;
+    background: linear-gradient(94deg, rgba(2,0,36,1) 0%, rgba(254,241,54,1) 0%, rgba(230,53,46,1) 100%);
+ }

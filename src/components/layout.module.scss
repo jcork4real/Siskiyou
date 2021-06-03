@@ -1,0 +1,17 @@
+.container{
+    height: 100%;
+    //styles for sticky footer
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    border: 0px;
+    margin: 0px;
+}
+
+
+.content{
+    flex-grow: 1;
+    border: 0px;
+    margin: 0px;
+}

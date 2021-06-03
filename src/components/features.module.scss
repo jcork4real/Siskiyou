@@ -1,0 +1,46 @@
+.body{
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.benefits{
+    display: flex;
+    justify-content: center;
+}
+
+.h2{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 8px;
+    padding-top: 2px;
+    margin-bottom: 8px;
+    padding-bottom: 2px;
+    padding-left: 180px;
+}
+
+.h3{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #f19532;
+    word-wrap: normal;
+}
+
+.h4{
+    color: #f19532;
+    font-size: 16px;
+}
+
+.p{
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.col{
+    height: 400px;
+    width: 300px;
+}
+
+.img{
+    margin: 0px;
+    padding: 0px;
+}
