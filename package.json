@@ -1,9 +1,10 @@
 {
-  "name": "gatsby-starter-default",
+  "homepage": "https://github.com/jcork4real/siskiyou",
+  "name": "siskiyou",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Pest Control Website written in Gatsby (React, SCSS)",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jarone McCorkle <jaroneemccorkle@gmail.com>",
   "dependencies": {
     "gatsby": "^3.4.1",
     "gatsby-plugin-gatsby-cloud": "^2.4.1",
@@ -21,7 +22,6 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "gh-pages": "^3.2.0",
     "prettier": "2.2.1"
   },
   "keywords": [
@@ -35,13 +35,14 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "deploy": "gatsby build && gh-pages -d public"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/jcork4real/siskiyou.git"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/jcork4real/siskiyou.git"
   }
 }
